@@ -6,7 +6,8 @@
 Create database "MiViewAccounts" on (localdb)\MSSQLLocalDB
 
 Open project in Visual Studio
-Open Package Manager Console, set Default project as "MiAccount.Data" and run:
+
+Open *Package Manager Console*, set Default project as "MiAccount.Data" and run:
 ````
 Update-Database
 ````
