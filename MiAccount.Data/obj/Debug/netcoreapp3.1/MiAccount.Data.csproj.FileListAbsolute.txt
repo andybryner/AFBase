@@ -1,0 +1,12 @@
+C:\dev\projects\MiAccount\MiAccount.Data\bin\Debug\netcoreapp3.1\MiAccount.Data.deps.json
+C:\dev\projects\MiAccount\MiAccount.Data\bin\Debug\netcoreapp3.1\MiAccount.Data.runtimeconfig.json
+C:\dev\projects\MiAccount\MiAccount.Data\bin\Debug\netcoreapp3.1\MiAccount.Data.runtimeconfig.dev.json
+C:\dev\projects\MiAccount\MiAccount.Data\bin\Debug\netcoreapp3.1\MiAccount.Data.dll
+C:\dev\projects\MiAccount\MiAccount.Data\bin\Debug\netcoreapp3.1\MiAccount.Data.pdb
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.AssemblyInfoInputs.cache
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.AssemblyInfo.cs
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.csproj.CoreCompileInputs.cache
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.dll
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.pdb
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.genruntimeconfig.cache
+C:\dev\projects\MiAccount\MiAccount.Data\obj\Debug\netcoreapp3.1\MiAccount.Data.csprojAssemblyReference.cache
