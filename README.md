@@ -1,5 +1,8 @@
 # Azure Function Test Project
 
+## Summary
+Example Azure Function running on .NET Core 3.1 with EF Core and SQL Server database.
+
 ## Setup
 
 ### Database setup
