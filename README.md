@@ -3,9 +3,13 @@
 ## Setup
 
 ### Database setup
-Create database "MiViewAccounts" on (localdb)\MSSQLLocalDB
+Open SSMS and connect to *(localdb)\MSSQLLocalDB*
 
-Open project in Visual Studio
+Right-click *Databases* folder and select *New Database...* 
+
+Enter the Database name "MiViewAccounts" and click "Ok". 
+
+Open the project in Visual Studio
 
 Open *Package Manager Console*, set Default project as "MiAccount.Data" and run:
 ````
