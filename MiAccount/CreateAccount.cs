@@ -9,16 +9,17 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using MiAccount.Data;
 using MiAccount.Models.Request;
+using MiAccount.Data.Repositories;
 
 namespace MiAccount
 {
     public class CreateAccount
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IAccountRepository repo;
 
-        public CreateAccount(ApplicationDbContext applicationDbContext)
+        public CreateAccount(IAccountRepository _repo)
         {
-            _context = applicationDbContext;
+            repo = _repo;
         }
 
         [FunctionName("CreateAccount")]
@@ -41,10 +42,8 @@ namespace MiAccount
                 CreateTime = now,
                 UpdateTime = now,
             };
-
-            _context.Add(newAccount);
-
-            await _context.SaveChangesAsync();
+            repo.InsertAccount(newAccount);
+            await repo.Save();
 
             log.LogInformation("Account created.");
             return new OkObjectResult(newAccount.Id);
