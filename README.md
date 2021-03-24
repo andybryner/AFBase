@@ -26,7 +26,7 @@ Run the project, see the console output for the list of available endpoints, e.g
 ````
 Functions:
 
-        CreateAccount: [POST] http://localhost:7071/api/CreateAccount
+        CreateAccount: [POST] http://localhost:7071/api/v1/accounts
 
-        GetAccounts: [GET] http://localhost:7071/api/GetAccounts
+        GetAccounts: [GET] http://localhost:7071/api/v1/accounts
 ````
