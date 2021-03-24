@@ -1,7 +1,8 @@
 ﻿namespace MiAccount.Models.Request
 {
-    class CreateAccountRequest
+    public class CreateAccountRequest
     {
         public string Name { get; set; }
+        public int TokenTimeout { get; set; }
     }
 }

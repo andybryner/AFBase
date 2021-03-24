@@ -1,4 +1,5 @@
 ﻿using MiAccount.Data;
+using MiAccount.Services.AccountService;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +15,8 @@ namespace MiAccount
             string connectionString = Environment.GetEnvironmentVariable("ConnectionString");
             builder.Services.AddDbContext<ApplicationDbContext>(
                 options => SqlServerDbContextOptionsExtensions.UseSqlServer(options, connectionString));
+
+            builder.Services.AddScoped<IAccountService, AccountService>();
         }
     }
 }
