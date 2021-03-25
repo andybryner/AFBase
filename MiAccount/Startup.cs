@@ -1,9 +1,10 @@
-﻿using MiAccount.Data;
+﻿using System;
+using MiAccount.Data;
 using MiAccount.Services.AccountService;
+using MiAccount.Services.RedisService;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 [assembly: FunctionsStartup(typeof(MiAccount.Startup))]
 
 namespace MiAccount
@@ -17,6 +18,9 @@ namespace MiAccount
                 options => SqlServerDbContextOptionsExtensions.UseSqlServer(options, connectionString));
 
             builder.Services.AddScoped<IAccountService, AccountService>();
+
+            var redisConnectionString = Environment.GetEnvironmentVariable("RedisConnectionString");
+            builder.Services.AddTransient(redis => new RedisService(redisConnectionString));
         }
     }
 }
