@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiAccount", "MiAccount\MiAccount.csproj", "{8261F156-55BA-4CE0-881E-9FABE29C1438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiAccount", "MiAccount\MiAccount.csproj", "{8261F156-55BA-4CE0-881E-9FABE29C1438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiAccount.Data", "MiAccount.Data\MiAccount.Data.csproj", "{B154D7ED-04F6-44D3-800B-65781B186B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiAccount.Data", "MiAccount.Data\MiAccount.Data.csproj", "{B154D7ED-04F6-44D3-800B-65781B186B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiAccount.Tests", "MiAccount.Tests\MiAccount.Tests.csproj", "{02E1FF38-8016-4F2B-9814-13351F75BBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B154D7ED-04F6-44D3-800B-65781B186B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B154D7ED-04F6-44D3-800B-65781B186B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B154D7ED-04F6-44D3-800B-65781B186B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E1FF38-8016-4F2B-9814-13351F75BBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E1FF38-8016-4F2B-9814-13351F75BBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E1FF38-8016-4F2B-9814-13351F75BBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E1FF38-8016-4F2B-9814-13351F75BBDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
